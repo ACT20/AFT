@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Leadership Programs</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #fdf4ff, #f1f5f9);
+}
+
+header {
+  background: linear-gradient(135deg, #7c3aed, #4c1d95);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.container {
+  padding: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px 20px 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: linear-gradient(135deg, #7c3aed, #4c1d95);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.code {
+  font-size: 0.8rem;
+  color: #7c3aed;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #7c3aed;
+  margin: 10px 0;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* DOWNLOAD SECTION */
+.download-panel {
+  margin: 40px 30px 0;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  border-left: 5px solid #7c3aed;
+}
+
+.download-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.download-btn {
+  background: #7c3aed;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: #4c1d95;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .download-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .download-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Leadership Programs</h1>
+  <p>2026 Professional Training Courses</p>
+</header>
+
+<div class="container">
+  <div class="grid">
+
+    <div class="card"><div class="badge">$2750</div><div class="code">PPMP</div><div class="title">Public Policy Making Process</div><div class="price">$2750</div><div class="info">Dates: Apr 18–22 | Oct 5–9</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">GSDDS</div><div class="title">Governance Structures in Devolved & Decentralized Systems</div><div class="price">$2750</div><div class="info">Dates: May 11–16 | Nov 9–13</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">ELIE</div><div class="title">Enhancing Leadership & Institutional Effectiveness</div><div class="price">$2750</div><div class="info">Dates: Feb 2–6 | Jul 6–10</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">LEHPO</div><div class="title">Leadership Effectiveness & High Performing Organizations</div><div class="price">$2750</div><div class="info">Dates: Mar 16–20 | Aug 3–7</div></div>
+
+    <div class="card"><div class="badge">$2950</div><div class="code">ALDP</div><div class="title">Advanced Leadership Development Programme</div><div class="price">$2950</div><div class="info">Dates: Apr 13–17 | Sep 7–11</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">ILOB</div><div class="title">International Leadership & Organizational Behaviour</div><div class="price">$2750</div><div class="info">Dates: Jun 1–5 | Oct 5–9</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">CGSLDP</div><div class="title">Corporate Governance & Strategic Leadership Development</div><div class="price">$2750</div><div class="info">Dates: Jan 26–30 | Jul 25–29</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">SLMP</div><div class="title">Strategic Leadership & Governance Programme</div><div class="price">$2750</div><div class="info">Dates: Apr 20–24 | Aug 24–28</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">LDSMP</div><div class="title">Leadership Development Skills for Members of Parliament</div><div class="price">$2750</div><div class="info">Dates: May 11–15 | Dec 7–11</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">SWLDP</div><div class="title">Strategic Women Leadership Development Program</div><div class="price">$2750</div><div class="info">Dates: Apr 6–10 | Oct 12–16</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">ELMC</div><div class="title">Effective Leadership, Mentoring & Coaching</div><div class="price">$2750</div><div class="info">Dates: Mar 9–13 | Aug 17–21</div></div>
+
+    <div class="card"><div class="badge">$2950</div><div class="code">APAM</div><div class="title">Advanced Public Administration & Management</div><div class="price">$2950</div><div class="info">Dates: Apr 13–17 | Sep 14–18</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">LGCDMP</div><div class="title">Leadership, Governance & Crisis/Disaster Management</div><div class="price">$2750</div><div class="info">Dates: Mar 23–27 | Aug 17–21</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">LTLN-VUCA</div><div class="title">Transformational Leadership in a VUCA Environment</div><div class="price">$2750</div><div class="info">Dates: Feb 23–27 | Jul 27–31</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">SLRM</div><div class="title">Situational Leadership & Relationship Management</div><div class="price">$2750</div><div class="info">Dates: Jun 6–12 | Oct 19–23</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">CESD</div><div class="title">Capacity Enhancement for Public Sector Directors</div><div class="price">$2750</div><div class="info">Dates: May 11–15 | Nov 16–20</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">PDPC</div><div class="title">Professional Development Programme for CEOs</div><div class="price">$2750</div><div class="info">Dates: Feb 23–27 | Dec 7–11</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">LPIP</div><div class="title">Leadership & Policy Implementation Program</div><div class="price">$2750</div><div class="info">Dates: Jul 13–17 | Dec 14–18</div></div>
+
+  </div>
+</div>
+
+<!-- DOWNLOAD SECTION -->
+<div class="download-panel">
+  <div class="download-content">
+    <div>
+      <h3>Download Leadership Brochure</h3>
+      <p>Get full course details in PDF format</p>
+    </div>
+    <a href="pdf/LEADERSHIP PROGRAMS.pdf" download class="download-btn">Download PDF</a>
+  </div>
+</div>
+
+<div class="footer">
+  © 2026 Leadership Programs
+</div>
+
+</body>
+</html>

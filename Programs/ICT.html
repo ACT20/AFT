@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Computer & ICT Programs</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #eef2ff, #f8fafc);
+}
+
+header {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.container {
+  padding: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px 20px 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.code {
+  font-size: 0.8rem;
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin: 10px 0;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* DOWNLOAD SECTION */
+.download-panel {
+  margin: 40px 30px 0;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  border-left: 5px solid #2563eb;
+}
+
+.download-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.download-btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: #1e40af;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .download-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .download-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Computer & ICT Programs</h1>
+  <p>2026 Professional Training Courses</p>
+</header>
+
+<div class="container">
+  <div class="grid">
+
+    <div class="card"><div class="badge">$2750</div><div class="code">CAIC</div><div class="title">Computer Auditing and Internal Control</div><div class="price">$2750</div><div class="info">Duration: 1 Week</div><div class="info">Dates: Mar 16–20 | Jun 8–12</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">SDASPSS</div><div class="title">Statistical Data Analysis with SPSS</div><div class="price">$2750</div><div class="info">Duration: 1 Week</div><div class="info">Dates: Apr 13–17 | Aug 10–14</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">DAFUE</div><div class="title">Data Analysis Fundamentals Using Excel</div><div class="price">$2750</div><div class="info">Duration: 1 Week</div><div class="info">Dates: May 11–15 | Oct 5–9</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">DSP</div><div class="title">Data Science with Python</div><div class="price">$2750</div><div class="info">Duration: 1 Week</div><div class="info">Dates: Mar 2–6 | Aug 17–21</div></div>
+
+    <div class="card"><div class="badge">$2950</div><div class="code">ACPEA</div><div class="title">Advanced Computer Programme for Executive Assistants</div><div class="price">$2950</div><div class="info">Duration: 1 Week</div><div class="info">Dates: Apr 20–24 | Sep 7–11</div></div>
+
+    <div class="card"><div class="badge">$2950</div><div class="code">MISSM</div><div class="title">Management Information System for Senior Managers</div><div class="price">$2950</div><div class="info">Duration: 1 Week</div><div class="info">Dates: May 18–22 | Oct 19–23</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">IPP</div><div class="title">Introduction to Python Programming</div><div class="price">$2750</div><div class="info">Duration: 1 Week</div><div class="info">Dates: May 4–8 | Nov 16–20</div></div>
+
+    <div class="card"><div class="badge">$2950</div><div class="code">CSEB</div><div class="title">Cyber Security Essentials for Business</div><div class="price">$2950</div><div class="info">Duration: 1 Week</div><div class="info">Dates: Apr 13–17 | Nov 16–20</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">DM</div><div class="title">Digital Marketing</div><div class="price">$2750</div><div class="info">Duration: 1 Week</div><div class="info">Dates: May 11–15 | Sep 7–11</div></div>
+
+    <div class="card"><div class="badge">$2950</div><div class="code">DVT</div><div class="title">Data Visualization with Tableau</div><div class="price">$2950</div><div class="info">Duration: 1 Week</div><div class="info">Dates: Jan 19–23 | Aug 24–28</div></div>
+
+  </div>
+</div>
+
+<!-- DOWNLOAD SECTION -->
+<div class="download-panel">
+  <div class="download-content">
+    <div>
+      <h3>Download ICT Brochure</h3>
+      <p>Get full course details in PDF format</p>
+    </div>
+    <a href="pdf/COMPUTER  AND ICT PROGRAMS.pdf" download class="download-btn">Download PDF</a>
+  </div>
+</div>
+
+<div class="footer">
+  © 2026 Computer & ICT Programs
+</div>
+
+</body>
+</html>

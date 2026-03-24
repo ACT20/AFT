@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>General Management Programs</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #fff7ed, #f1f5f9);
+}
+
+header {
+  background: linear-gradient(135deg, #ea580c, #9a3412);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.container {
+  padding: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px 20px 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: linear-gradient(135deg, #ea580c, #9a3412);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.code {
+  font-size: 0.8rem;
+  color: #ea580c;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ea580c;
+  margin: 10px 0;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* DOWNLOAD SECTION */
+.download-panel {
+  margin: 40px 30px 0;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  border-left: 5px solid #ea580c;
+}
+
+.download-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.download-btn {
+  background: #ea580c;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: #9a3412;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .download-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .download-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>General Management Programs</h1>
+  <p>2026 Professional Training Courses</p>
+</header>
+
+<div class="container">
+  <div class="grid">
+
+    <div class="card"><div class="badge">$2750</div><div class="code">MSSAO</div><div class="title">Management Skills for Secretaries & Administrative Officers</div><div class="price">$2750</div><div class="info">Dates: Apr 6–10 | Sep 7–11</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">PDPS</div><div class="title">Professional Development Programme for Secretaries</div><div class="price">$2750</div><div class="info">Dates: Jan 26–30 | Jun 1–5</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">RMPS</div><div class="title">Records Management and Office Administration</div><div class="price">$2750</div><div class="info">Dates: Feb 16–20 | Aug 17–21</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">SMS</div><div class="title">Supervisory Management Skills</div><div class="price">$2750</div><div class="info">Dates: May 25–29 | Oct 19–23</div></div>
+
+    <div class="card"><div class="badge">$2950</div><div class="code">SMSCS</div><div class="title">Stores Management and Stock Control Systems</div><div class="price">$2950</div><div class="info">Dates: Mar 9–13 | Sep 14–18</div></div>
+
+    <div class="card"><div class="badge">$2950</div><div class="code">ASMS</div><div class="title">Advanced Supervisory Management Skills</div><div class="price">$2950</div><div class="info">Dates: Jan 19–23 | Jul 27–31</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">PRCC</div><div class="title">Public Relations and Customer Care</div><div class="price">$2750</div><div class="info">Dates: Jun 22–26 | Oct 26–30</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">SWPS</div><div class="title">Speech Writing and Presentation Skills</div><div class="price">$2750</div><div class="info">Dates: Mar 9–13 | Sep 14–18</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">TRWC</div><div class="title">Technical Report Writing Course</div><div class="price">$2750</div><div class="info">Dates: Jan 19–23 | Jun 15–19</div></div>
+
+    <div class="card"><div class="badge">$2750</div><div class="code">CMMW</div><div class="title">Conduct of Meetings and Minute Writing</div><div class="price">$2750</div><div class="info">Dates: May 25–29 | Dec 14–18</div></div>
+
+  </div>
+</div>
+
+<!-- DOWNLOAD SECTION -->
+<div class="download-panel">
+  <div class="download-content">
+    <div>
+      <h3>Download Management Brochure</h3>
+      <p>Get full course details in PDF format</p>
+    </div>
+    <a href="pdf/GENERAL MANAGEMENT PROGRAMS.pdf" download class="download-btn">Download PDF</a>
+  </div>
+</div>
+
+<div class="footer">
+  © 2026 General Management Programs
+</div>
+
+</body>
+</html>
